@@ -1,0 +1,13 @@
+{
+  "mailgun": {
+    "domain": "mail.yourdomain.com",
+    "apiKey": "key-aaabbbccc",
+    "publicKey": "pubkey-xxxyyyzzz",
+    "from": "from@domain.com",
+    "to": "to@domain.com"
+  },
+  "hueBridge": {
+    "address": "192.168.1.1",
+    "username": "abc123"
+  }
+}
