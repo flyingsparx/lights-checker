@@ -91,6 +91,6 @@ func main() {
   config = loadConfiguration("config.json")
   mg = mailgun.NewMailgun(config.Mailgun.Domain, config.Mailgun.ApiKey, config.Mailgun.PublicKey)
   alreadySent = false
-  gocron.Every(10).Seconds().Do(checkBulbs)
+  gocron.Every(1).Minute().Do(checkBulbs)
   <- gocron.Start()
 }
