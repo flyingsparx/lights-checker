@@ -53,7 +53,7 @@ func sendNotification(lights []string) {
 func checkBulbs() {
   var hour = time.Now().Hour()
 
-  if hour > 20 || hour < 6 {
+  if hour > 22 || hour < 6 {
     type bulbState struct {
       On bool `json:"on"`
     }
